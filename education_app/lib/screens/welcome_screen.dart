@@ -1,10 +1,11 @@
+import 'package:education_app/screens/home_screen.dart';
 import 'package:flutter/material.dart';
 
 class WelcomeScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      home: Container(
+    return Material(
+      child: Container(
         width: MediaQuery.of(context).size.width,
         height: MediaQuery.of(context).size.height,
         child: Stack(
@@ -14,21 +15,21 @@ class WelcomeScreen extends StatelessWidget {
                 Container(
                   width: MediaQuery.of(context).size.width,
                   height: MediaQuery.of(context).size.height / 1.6,
-                  decoration: const BoxDecoration(
+                  decoration: BoxDecoration(
                     color: Colors.white,
                   ),
                 ),
                 Container(
                   width: MediaQuery.of(context).size.width,
                   height: MediaQuery.of(context).size.height / 1.6,
-                  decoration: const BoxDecoration(
+                  decoration: BoxDecoration(
                     color: Color(0xFF674AEF),
                     borderRadius:
                         BorderRadius.only(bottomRight: Radius.circular(70)),
                   ),
                   child: Center(
                     child: Image.asset(
-                      "images/.books.png",
+                      "../images/books.png",
                       scale: 0.8,
                     ),
                   ),
@@ -38,7 +39,9 @@ class WelcomeScreen extends StatelessWidget {
             Align(
               alignment: Alignment.bottomCenter,
               child: Container(
-                width: MediaQuery.of(context).size.width,
+                width: MediaQuery.of(context)
+                    .size
+                    .width, //ver esta linha de codigo
                 height: MediaQuery.of(context).size.height / 2.666,
                 decoration: BoxDecoration(color: Color(0xFF674AEF)),
               ),
@@ -83,7 +86,13 @@ class WelcomeScreen extends StatelessWidget {
                       color: Color(0xFF674AEF),
                       borderRadius: BorderRadius.circular(10),
                       child: InkWell(
-                        onTap: () {},
+                        onTap: () {
+                          Navigator.push(
+                              context,
+                              MaterialPageRoute(
+                                builder: (context) => HomePage(),
+                              ));
+                        },
                         child: Container(
                           padding: EdgeInsets.symmetric(
                               vertical: 15, horizontal: 80),
