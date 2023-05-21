@@ -13,7 +13,9 @@ O aplicativo utiliza as seguintes dependências:
 - Provider: Um pacote de gerenciamento de estado que permite compartilhar dados entre widgets no Flutter de forma eficiente.
 
 ## Estrutura do Projeto:
-O projeto "Educação App" está organizado da seguinte forma:
+<details>
+  
+-  O projeto "Educação App" está organizado da seguinte forma:
 
 ```
 lib/: Diretório principal do projeto que contém o código-fonte.
@@ -48,14 +50,15 @@ assets/: Diretório que contém os recursos estáticos do aplicativo, como image
 ```
 images/: Diretório que contém as imagens utilizadas no aplicativo.
 ```
+</details>
 
 
 ## Funcionalidades:
 O aplicativo "Educação App" oferece as seguintes funcionalidades:
 
-Exibição das categorias de cursos disponíveis.
-Exibição dos cursos em formato de lista.
-Navegação para os detalhes de um curso específico.
-Alternância entre a seção de vídeos e a seção de descrição de um curso.
-Pesquisa de cursos.
-Navegação entre as telas usando a barra de navegação inferior.
+- Exibição das categorias de cursos disponíveis.
+- Exibição dos cursos em formato de lista.
+- Navegação para os detalhes de um curso específico.
+- Alternância entre a seção de vídeos e a seção de descrição de um curso.
+- Pesquisa de cursos.
+- Navegação entre as telas usando a barra de navegação inferior.
