@@ -15,17 +15,40 @@ O aplicativo utiliza as seguintes dependências:
 ## Estrutura do Projeto:
 O projeto "Educação App" está organizado da seguinte forma:
 
+```
 lib/: Diretório principal do projeto que contém o código-fonte.
+```
+```
 screens/: Contém as telas principais do aplicativo.
+```
+```
 home_screen.dart: Tela inicial que exibe as categorias e cursos disponíveis.
+```
+```
 welcome_screen.dart: Tela de boas-vindas que é exibida ao iniciar o aplicativo.
+```
+```
 course_screen.dart: Tela que exibe os detalhes de um curso específico.
+```
+```
 widgets/: Contém os widgets reutilizáveis utilizados nas telas.
+```
+```
 description_section.dart: Widget que exibe a seção de descrição de um curso.
+```
+```
 videos_section.dart: Widget que exibe a seção de vídeos de um curso.
+```
+```
 main.dart: Ponto de entrada do aplicativo.
+```
+```
 assets/: Diretório que contém os recursos estáticos do aplicativo, como imagens.
+```
+```
 images/: Diretório que contém as imagens utilizadas no aplicativo.
+```
+
 
 ## Funcionalidades:
 O aplicativo "Educação App" oferece as seguintes funcionalidades:
