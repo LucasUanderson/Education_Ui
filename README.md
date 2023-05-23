@@ -62,3 +62,31 @@ O aplicativo "Educação App" oferece as seguintes funcionalidades:
 - Alternância entre a seção de vídeos e a seção de descrição de um curso.
 - Pesquisa de cursos.
 - Navegação entre as telas usando a barra de navegação inferior.
+
+
+
+  ### Imagens 📲
+  
+  <details>
+
+  ##  - Home
+  <div align="center">
+  <img src="./Image/home.png" alt="Premium-home"/>
+  </div>
+ 
+  
+  ##  - Reviews
+  <div align="center">
+  <img src="/Image/reviews.png" alt="Premium-reviews"/>
+  </div>
+  
+  ##  - Player
+  <div align="center">
+  <img src="./Image/players.png" alt="Premium-player"/>
+  </div>
+  
+  </details>
+
+ <p align="center">
+<img width=150 src="http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge"/>
+</p>
