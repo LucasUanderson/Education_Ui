@@ -65,29 +65,29 @@ O aplicativo "Educação App" oferece as seguintes funcionalidades:
 
 
 
-  ### Imagens 📲
+  ## Imagens 📲
   
   <details>
 
   ##  - Welcome
   <div align="center">
-  <img src="../imagesApp/welcome.png" alt="Welcome"/>
+  <img src="education_app/imagesApp/welcome.png" alt="Welcome"/>
   </div>
  
   
   ##  - Home
   <div align="center">
-  <img src="./imagesApp/home.png" alt="Home"/>
+  <img src="education_app/imagesApp/home.png" alt="Home"/>
   </div>
   
   ##  - Player
   <div align="center">
-  <img src="./imagesApp/video.png" alt="Player"/>
+  <img src="education_app/imagesApp/video.png" alt="Player"/>
   </div>
   
   ##  - Description
   <div align="center">
-  <img src="./imagesApp/description.png" alt="Description"/>
+  <img src="education_app/imagesApp/description.png" alt="Description"/>
   </div>
   
   </details>
